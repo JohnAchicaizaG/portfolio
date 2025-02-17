@@ -1,22 +1,37 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import i18n from "i18next";
+---
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<!doctype html>
+<html lang={i18n.language ?? "es"}  class="bg-[#0EB8B8]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator ?? "Astro 5"} />
+
+    <!-- SEO básico -->
+    <title id="site-title">{i18n.t("title_page")}</title>
+    <meta name="description" content={i18n.t("meta_description") || "Descripción predeterminada"} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph para compartir en redes -->
+    <meta property="og:title" content={i18n.t("title_page")} />
+    <meta property="og:description" content={i18n.t("meta_description") || "Descripción predeterminada"} />
+    <meta property="og:image" content={i18n.t("og_image") || "/og-image.png"} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={i18n.t("title_page")} />
+    <meta name="twitter:description" content={i18n.t("meta_description") || "Descripción predeterminada"} />
+    <meta name="twitter:image" content={i18n.t("og_image") || "/og-image.png"} />
+  </head>
+  <body aria-labelledby="site-title">
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

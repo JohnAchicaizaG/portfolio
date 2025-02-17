@@ -1,0 +1,125 @@
+{
+    "title_page": "Portafolio",
+    "projects_": "Proyectos",
+    "about": "Sobre mí",
+    "download_resume": "Descargar currículum",
+    "title_hero_section": "¡Desarrollador web!",
+    "phrases_hero_section": [
+        "Transformando ideas en código 💡",
+        "Soluciones eficientes 🧠"
+    ],
+    "about_me": "Soy desarrollador con 5 años de experiencia en frontend y backend, construyendo aplicaciones escalables y de alto rendimiento. A lo largo de los años, he trabajado en proyectos que me han permitido crecer, adaptarme y perfeccionar mi forma de desarrollar software.",
+    "about_me_part2": "Me gusta enfrentar desafíos, aprender nuevas tecnologías y mejorar constantemente. Disfruto encontrar soluciones adaptadas a cada necesidad, buscando siempre la mejor forma de abordar cada proyecto.",
+    "projects": {
+        "title": "Proyectos",
+        "modal_title": "Detalles del Proyecto",
+        "modal_technologies": "Tecnologías",
+        "modal_contributions": "Mi contribución",
+        "inventory": {
+            "title": "Sistema de Gestión de Inventarios",
+            "description": "Una plataforma versátil y eficiente para gestionar inventarios y préstamos de equipos o herramientas en una amplia gama de industrias, incluyendo retail, logística, manufactura, salud y educación.",
+            "cover": "src/assets/inventory-cover.png",
+            "technologies": [
+                "React / Redux",
+                "HTML / CSS / TypeScript",
+                "NestJS",
+                "SEO"
+            ],
+            "contributions": [
+                "Desarrollo de componentes reutilizables con React y Redux.",
+                "Implementación de estilos con CSS y TypeScript.",
+                "Optimización de SEO y rendimiento.",
+                "Integración con API REST usando NestJS."
+            ],
+            "images": [
+                "src/assets/inventory-project/inventory-1.png",
+                "src/assets/inventory-project/inventory-1.png"
+            ],
+            "projectLink": "https://proyecto1.com",
+            "nameButton": "Ver Proyecto"
+        },
+        "sirenagest": {
+            "title": "SirenaGest",
+            "description": "SIRENAGEST fase 3 es el Sistema de Registro Nacional de Gestantes del Ministerio de Salud de Colombia. Permite un seguimiento personalizado de gestantes, incluidas migrantes, para reducir la mortalidad materna.",
+            "cover": "src/assets/sirenagest-cover.png",
+            "technologies": [
+                "Vue 3 / Element Plus / Pinia",
+                "HTML / CSS",
+                "Vue Router / Lazy Loading / Axios",
+                "Vue Test Utils",
+                ".Net Backend / ADO.NET / Microservicios",
+                "SQL Server"
+            ],
+            "contributions": [
+                "Maquetación avanzada con HTML y CSS puro, asegurando accesibilidad y estructura semántica.",
+                "Desarrollo de pantallas interactivas en Vue 3 con Vue Router.",
+                "Implementación de Lazy Loading para optimizar el rendimiento.",
+                "Creación de una tabla dinámica altamente personalizada utilizando CSS Grid.",
+                "Implementación de formularios complejos con validaciones avanzadas.",
+                "Desarrollo de interceptores con Axios para la gestión centralizada de peticiones HTTP.",
+                "Protección de rutas y gestión de autenticación dentro de la aplicación.",
+                "Consumo de APIs y manejo eficiente de respuestas en frontend.",
+                "Diseño y desarrollo de Responsive Design adaptado a múltiples dispositivos (sin Mobile First).",
+                "Adecuación de funcionalidades y migración de estado de Vuex a Pinia.",
+                "Resolución de bugs heredados de fases anteriores del proyecto.",
+                "Implementación de procedimientos almacenados en SQL Server para optimizar consultas de base de datos.",
+                "Participación activa en la recolección de requerimientos con el equipo funcional.",
+                "Reuniones semanales con stakeholders para validar avances y ajustar funcionalidades."
+            ],
+            "images": [
+                "src/assets/sirenagest-project/sirenagest-1.png",
+                "src/assets/sirenagest-project/sirenagest-2.png",
+                "src/assets/sirenagest-project/sirenagest-3.png",
+                "src/assets/sirenagest-project/sirenagest-4.png",
+                "src/assets/sirenagest-project/sirenagest-5.png",
+                "src/assets/sirenagest-project/sirenagest-6.png",
+                "src/assets/sirenagest-project/sirenagest-7.png"
+            ],
+            "projectLink": "https://web.sispropreprod.gov.co/cohortegestantes/frontend/",
+            "nameButton": "Visitar Sitio"
+        },
+        "shareholders": {
+            "title": "Sistema de Gestión de Accionistas",
+            "description": "Una plataforma integral para la gestión de accionistas, títulos valores y votaciones en tiempo real. Incluye módulos de usuarios, administración de asambleas, reportes personalizados y un sistema financiero avanzado.",
+            "cover": "src/assets/eepb-cover.jpeg",
+            "technologies": [
+                "Angular v.16 / Angular Material / NGRX",
+                "Tailwind CSS / CSS",
+                "Chart.js",
+                "Angular CDK (Component Dev Kit)",
+                "PDFMake",
+                "Jasmine & Karma",
+                "Spring Boot Backend / JPA / Spring Security JWT",
+                "WebSockets",
+                "PostgreSQL"
+            ],
+            "contributions": [
+                "Desarrollo de una interfaz dinámica con Angular 16, Angular Material y Tailwind CSS.",
+                "Implementación de un sistema de votación en tiempo real con WebSockets.",
+                "Gestión de estado optimizada con NGRX.",
+                "Integración de gráficos interactivos con Chart.js.",
+                "Desarrollo de módulos de administración de títulos y reportes personalizados.",
+                "Generación de documentos en PDF con PDFMake.",
+                "Autenticación segura con JWT y Spring Security.",
+                "Pruebas unitarias y de integración con Jasmine y Karma.",
+                "Implementación de un backend escalable con Spring Boot y PostgreSQL."
+            ],
+            "images": [
+                "src/assets/eepb-project/eepb-1.jpeg",
+                "src/assets/eepb-project/eepb-2.jpeg",
+                "src/assets/eepb-project/eepb-3.jpeg",
+                "src/assets/eepb-project/eepb-4.jpeg",
+                "src/assets/eepb-project/eepb-5.jpeg",
+                "src/assets/eepb-project/eepb-6.jpeg",
+                "src/assets/eepb-project/eepb-7.jpeg",
+                "src/assets/eepb-project/eepb-8.jpeg",
+                "src/assets/eepb-project/eepb-9.jpeg",
+                "src/assets/eepb-project/eepb-10.jpeg",
+                "src/assets/eepb-project/eepb-11.jpeg"
+            ],
+            "projectLink": "https://eebpsa.com.co/",
+            "nameButton": "Acceder a la Intranet"
+        }
+    },
+    "footer": "John Chicaiza, Transformando ideas en código"
+}

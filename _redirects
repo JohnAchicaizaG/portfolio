@@ -1,0 +1,4 @@
+# Redirigir TODAS las rutas desconocidas a index.html (ideal para SPA como Astro)
+# Si alguien intenta acceder a una ruta inexistente, se servirá la página principal.
+# Esto evita errores 404.
+  /* /index.html 200
