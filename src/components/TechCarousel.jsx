@@ -32,7 +32,7 @@ const TechCarousel = () => {
     <section
       id="about"
       aria-label="Carrusel de Tecnologías"
-      className="relative w-full overflow-hidden bg-[#F9FAFB] dark:bg-gray-900"
+      className="relative w-full overflow-hidden bg-[#F9FAFB]"
       lang="es"
     >
       <Slider {...settings} className="w-full flex justify-center mt-6" aria-live="polite">
