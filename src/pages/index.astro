@@ -1,5 +1,4 @@
 ---
-import '../../public/styles/global.css';
 import AboutMe from '../components/AboutMe';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -31,7 +30,7 @@ import TechCarousel from '../components/TechCarousel';
   <Navbar client:only="react" />
   <Hero client:only="react" />
   <TechCarousel client:only="react" />
-  <AboutMe client:visible />
-  <Projects client:visible /> 
-  <Footer client:visible />
+  <AboutMe client:only="react"  />
+  <Projects client:only="react"  /> 
+  <Footer client:only="react" />
 </Layout>

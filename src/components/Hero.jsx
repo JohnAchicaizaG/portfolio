@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import TypeWriterEffect from "react-typewriter-effect";
 import * as THREE from "three";
 import { useTranslation } from "react-i18next";
+import '../styles/global.css';
 
 // Shader personalizado para efecto de energía 🔥💙
 const EnergyShaderMaterial = shaderMaterial(
@@ -68,9 +69,9 @@ const Hero = () => {
   return (
     <section
       className="relative w-full h-screen bg-[#17263D] text-white"
-      role="banner"
+      
       lang={i18n.language}
-      aria-labelledby="hero-title"
+     
     >
       {/* Fondo Animado con Three.js */}
       <Canvas className="absolute inset-0 w-full h-full" aria-hidden="true">

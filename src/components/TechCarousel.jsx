@@ -1,8 +1,7 @@
+// src/components/TechCarousel.jsx
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-// Definición de tecnologías con nombres, íconos y descripciones accesibles
+
 const technologies = [
   { name: "React", iconSrc: "/assets/react-min.svg", alt: "Logotipo de React" },
   { name: "Angular", iconSrc: "/assets/angular-min.svg", alt: "Logotipo de Angular" },
@@ -38,17 +37,15 @@ const TechCarousel = () => {
     >
       <Slider {...settings} className="w-full flex justify-center mt-6" aria-live="polite">
         {technologies.concat(technologies).map((tech, index) => (
-          <div key={index} className=" flex flex-col items-center mx-6 min-w-[110px] h-[230px] text-align bg-gray-50  ">
+          <div key={index} className="flex flex-col items-center mx-6 min-w-[110px] h-[230px] text-align bg-gray-50">
             <div className="bg-[#f2f3f4] dark:bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center mr-4">
               <img
                 src={tech.iconSrc}
                 alt={tech.alt}
-                className="w-12 h-12 text-center "
-                loading="lazy"
+                className="w-12 h-12 text-center"
               />
-              <h3 className="mt-2 text-lg  text-center font-semibold text-gray-800 bg-gray-100" >{tech.name}</h3>
+              <h3 className="mt-2 text-lg text-center font-semibold text-gray-800 bg-gray-100">{tech.name}</h3>
             </div>
-
           </div>
         ))}
       </Slider>

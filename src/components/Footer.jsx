@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
 
+  
+
   // Lista de redes sociales con sus respectivos enlaces e íconos
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/JohnAchicaizaG", icon: <FaGithub />, label: "Visitar mi GitHub" },

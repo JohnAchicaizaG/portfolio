@@ -105,17 +105,17 @@
                 "Implementación de un backend escalable con Spring Boot y PostgreSQL."
             ],
             "images": [
-                "../../public/assets/eepb-project/eepb-1.jpeg",
-                "../../public/assets/eepb-project/eepb-2.jpeg",
-                "../../public/assets/eepb-project/eepb-3.jpeg",
-                "../../public/assets/eepb-project/eepb-4.jpeg",
-                "../../public/assets/eepb-project/eepb-5.jpeg",
-                "../../public/assets/eepb-project/eepb-6.jpeg",
-                "../../public/assets/eepb-project/eepb-7.jpeg",
-                "../../public/assets/eepb-project/eepb-8.jpeg",
-                "../../public/assets/eepb-project/eepb-9.jpeg",
-                "../../public/assets/eepb-project/eepb-10.jpeg",
-                "../../public/assets/eepb-project/eepb-11.jpeg"
+                "assets/eepb-project/eepb-1.jpeg",
+                "assets/eepb-project/eepb-2.jpeg",
+                "assets/eepb-project/eepb-3.jpeg",
+                "assets/eepb-project/eepb-4.jpeg",
+                "assets/eepb-project/eepb-5.jpeg",
+                "assets/eepb-project/eepb-6.jpeg",
+                "assets/eepb-project/eepb-7.jpeg",
+                "assets/eepb-project/eepb-8.jpeg",
+                "assets/eepb-project/eepb-9.jpeg",
+                "assets/eepb-project/eepb-10.jpeg",
+                "assets/eepb-project/eepb-11.jpeg"
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Acceder a la Intranet"
