@@ -38,7 +38,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <img 
-              src="src/assets/profile-avatar.jpeg" 
+              src="../../public/assets/profile-avatar.jpeg" 
               alt={t("profile_picture_alt")} 
               className="w-full h-full object-cover"
               loading="lazy" 

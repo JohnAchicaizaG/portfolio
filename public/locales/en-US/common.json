@@ -18,7 +18,7 @@
         "inventory": {
             "title": "Inventory Management System",
             "description": "A versatile and efficient platform for managing inventory and equipment loans across a wide range of industries, including retail, logistics, manufacturing, healthcare, and education.",
-            "cover": "src/assets/inventory-cover.png",
+            "cover": "/assets/inventory-cover.png",
             "technologies": [
                 "React / Redux",
                 "HTML / CSS / TypeScript",
@@ -32,8 +32,8 @@
                 "Integrating with REST APIs using NestJS."
             ],
             "images": [
-                "src/assets/inventory-project/inventory-1.png",
-                "src/assets/inventory-project/inventory-1.png"
+                "/assets/inventory-project/inventory-1.png",
+                "/assets/inventory-project/inventory-1.png"
             ],
             "projectLink": "https://proyecto1.com",
             "nameButton": "View Project"
@@ -41,7 +41,7 @@
         "sirenagest": {
             "title": "SirenaGest",
             "description": "SIRENAGEST phase 3 is the National Registry System for Pregnant Women of the Ministry of Health of Colombia. It enables personalized tracking of pregnant women, including migrants, to reduce maternal mortality.",
-            "cover": "src/assets/sirenagest-cover.png",
+            "cover": "/assets/sirenagest-cover.png",
             "technologies": [
                 "Vue 3 / Element Plus / Pinia",
                 "HTML / CSS",
@@ -68,13 +68,13 @@
                 "Weekly meetings with stakeholders to validate progress and refine functionalities."
             ],
             "images": [
-                "src/assets/sirenagest-project/sirenagest-1.png",
-                "src/assets/sirenagest-project/sirenagest-2.png",
-                "src/assets/sirenagest-project/sirenagest-3.png",
-                "src/assets/sirenagest-project/sirenagest-4.png",
-                "src/assets/sirenagest-project/sirenagest-5.png",
-                "src/assets/sirenagest-project/sirenagest-6.png",
-                "src/assets/sirenagest-project/sirenagest-7.png"
+                "/assets/sirenagest-project/sirenagest-1.png",
+                "/assets/sirenagest-project/sirenagest-2.png",
+                "/assets/sirenagest-project/sirenagest-3.png",
+                "/assets/sirenagest-project/sirenagest-4.png",
+                "/assets/sirenagest-project/sirenagest-5.png",
+                "/assets/sirenagest-project/sirenagest-6.png",
+                "/assets/sirenagest-project/sirenagest-7.png"
             ],
             "projectLink": "https://web.sispropreprod.gov.co/cohortegestantes/frontend/",
             "nameButton": "Visit Site"
@@ -82,7 +82,7 @@
         "shareholders": {
             "title": "Shareholder Management System",
             "description": "A comprehensive platform for managing shareholders, securities, and real-time voting. Includes user management, assembly administration, customized reports, and an advanced financial module.",
-            "cover": "src/assets/eepb-cover.jpeg",
+            "cover": "/assets/eepb-cover.jpeg",
             "technologies": [
                 "Angular v.16 / Angular Material / NGRX",
                 "Tailwind CSS / CSS",
@@ -106,17 +106,17 @@
                 "Built a scalable backend with Spring Boot and PostgreSQL."
             ],
             "images": [
-                "src/assets/eepb-project/eepb-1.jpeg",
-                "src/assets/eepb-project/eepb-2.jpeg",
-                "src/assets/eepb-project/eepb-3.jpeg",
-                "src/assets/eepb-project/eepb-4.jpeg",
-                "src/assets/eepb-project/eepb-5.jpeg",
-                "src/assets/eepb-project/eepb-6.jpeg",
-                "src/assets/eepb-project/eepb-7.jpeg",
-                "src/assets/eepb-project/eepb-8.jpeg",
-                "src/assets/eepb-project/eepb-9.jpeg",
-                "src/assets/eepb-project/eepb-10.jpeg",
-                "src/assets/eepb-project/eepb-11.jpeg"
+                "/assets/eepb-project/eepb-1.jpeg",
+                "/assets/eepb-project/eepb-2.jpeg",
+                "/assets/eepb-project/eepb-3.jpeg",
+                "/assets/eepb-project/eepb-4.jpeg",
+                "/assets/eepb-project/eepb-5.jpeg",
+                "/assets/eepb-project/eepb-6.jpeg",
+                "/assets/eepb-project/eepb-7.jpeg",
+                "/assets/eepb-project/eepb-8.jpeg",
+                "/assets/eepb-project/eepb-9.jpeg",
+                "/assets/eepb-project/eepb-10.jpeg",
+                "/assets/eepb-project/eepb-11.jpeg"
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Access the Intranet"

@@ -4,16 +4,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Definición de tecnologías con nombres, íconos y descripciones accesibles
 const technologies = [
-  { name: "React", iconSrc: "src/assets/react-min.svg", alt: "Logotipo de React" },
-  { name: "Angular", iconSrc: "src/assets/angular-min.svg", alt: "Logotipo de Angular" },
-  { name: "Vue.js", iconSrc: "src/assets/vue-min.svg", alt: "Logotipo de Vue.js" },
-  { name: "NestJS", iconSrc: "src/assets/nest-min.svg", alt: "Logotipo de NestJS" },
-  { name: "Java", iconSrc: "src/assets/springboot-min.svg", alt: "Logotipo de Spring Boot" },
-  { name: ".NET", iconSrc: "src/assets/net-min.svg", alt: "Logotipo de .NET" },
-  { name: "PostgreSQL", iconSrc: "src/assets/postgresql-min.svg", alt: "Logotipo de PostgreSQL" },
-  { name: "SQL", iconSrc: "src/assets/sql-server-min.svg", alt: "Logotipo de SQL Server" },
-  { name: "Node.js", iconSrc: "src/assets/nodejs-min.svg", alt: "Logotipo de Node.js" },
-  { name: "Astro", iconSrc: "src/assets/astro-min.svg", alt: "Logotipo de Astro" },
+  { name: "React", iconSrc: "/assets/react-min.svg", alt: "Logotipo de React" },
+  { name: "Angular", iconSrc: "/assets/angular-min.svg", alt: "Logotipo de Angular" },
+  { name: "Vue.js", iconSrc: "/assets/vue-min.svg", alt: "Logotipo de Vue.js" },
+  { name: "NestJS", iconSrc: "/assets/nest-min.svg", alt: "Logotipo de NestJS" },
+  { name: "Java", iconSrc: "/assets//springboot-min.svg", alt: "Logotipo de Spring Boot" },
+  { name: ".NET", iconSrc: "/assets/net-min.svg", alt: "Logotipo de .NET" },
+  { name: "PostgreSQL", iconSrc: "/assets/postgresql-min.svg", alt: "Logotipo de PostgreSQL" },
+  { name: "SQL", iconSrc: "/assets/sql-server-min.svg", alt: "Logotipo de SQL Server" },
+  { name: "Node.js", iconSrc: "/assets/nodejs-min.svg", alt: "Logotipo de Node.js" },
+  { name: "Astro", iconSrc: "/assets/astro-min.svg", alt: "Logotipo de Astro" },
 ];
 
 const TechCarousel = () => {
