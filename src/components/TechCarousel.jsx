@@ -38,7 +38,7 @@ const TechCarousel = () => {
       <Slider {...settings} className="w-full flex justify-center mt-6" aria-live="polite">
         {technologies.concat(technologies).map((tech, index) => (
           <div key={index} className="flex flex-col items-center mx-6 min-w-[110px] h-[230px] text-align bg-gray-50">
-            <div className="bg-[#f2f3f4] dark:bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center mr-4">
+            <div className="bg-[#f2f3f4] p-4 rounded-lg shadow-lg flex flex-col items-center mr-4">
               <img
                 src={tech.iconSrc}
                 alt={tech.alt}
