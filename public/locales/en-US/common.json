@@ -121,6 +121,38 @@
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Access the Intranet"
+        },
+        "fastmeals": {
+            "title": "Fast Meals",
+            "description": "A fast and modern web platform built with Astro, designed for a local fast food business in Colombia. It includes login authentication with Firebase, order management, and a fully optimized interface using Astro Actions for dynamic functionalities.",
+            "cover": "/assets/fastmeals-cover.png",
+            "technologies": [
+                "Astro (Latest Version)",
+                "Tailwind CSS",
+                "Firebase (Authentication & Database)",
+                "Netlify (Deployment)",
+                "Astro Actions (Serverless Functions)"
+            ],
+            "contributions": [
+                "Developed a high-performance site using Astro.",
+                "Implemented authentication and user management with Firebase.",
+                "Integrated Astro Actions for seamless serverless functionality.",
+                "Designed responsive and accessible UI with Tailwind CSS.",
+                "Built dynamic forms for user interactions and order processing.",
+                "Added embedded maps for store location and delivery zones.",
+                "Optimized performance for fast load times.",
+                "Deployed on Netlify with CI/CD for automated updates."
+            ],
+            "images": [
+                "/assets/fastmeals-project/photo-2.png",
+                "/assets/fastmeals-project/photo-1.png",
+                "/assets/fastmeals-project/photo-5.png",
+                "/assets/fastmeals-project/photo-6.png",
+                "/assets/fastmeals-project/photo-7.png",
+                "/assets/fastmeals-project/photo-8.png"
+            ],
+            "projectLink": "https://fastmeals.com",
+            "nameButton": "Private Project"
         }
     },
     "tech_tests": {
