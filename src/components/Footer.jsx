@@ -15,12 +15,12 @@ const Footer = () => {
 
   return (
     <footer 
-      className="bg-gray-100 dark:bg-gray-900 py-6 px-4"
+      className="bg-black py-6 px-9"
       role="contentinfo" 
       lang={i18n.language} 
       aria-labelledby="footer-title"
     >
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-gray-800 dark:text-gray-300">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-gray-300">
         
         {/* Texto de derechos reservados */}
         <p id="footer-title" className="text-sm text-center md:text-left">
@@ -36,7 +36,7 @@ const Footer = () => {
                   href={url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-all 
+                  className="text-gray-300 hover:text-gray-900 dark:hover:text-white transition-all 
                     focus:outline-none focus:ring-2 focus:ring-gray-500 dark:focus:ring-white p-2 rounded-lg"
                   aria-label={label}
                 >

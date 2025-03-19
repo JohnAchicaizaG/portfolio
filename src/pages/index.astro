@@ -6,6 +6,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import TechCarousel from '../components/TechCarousel';
+import TechTests from '../components/TechTests';
 ---
 
 <script>
@@ -32,5 +33,6 @@ import TechCarousel from '../components/TechCarousel';
   <TechCarousel client:only="react" />
   <AboutMe client:only="react"  />
   <Projects client:only="react"  /> 
+  <TechTests client:only="react" />
   <Footer client:only="react" />
 </Layout>

@@ -59,6 +59,13 @@ const Navbar = () => {
           >
             {t("about")}
           </a>
+          <a
+            href="#tests"
+            className="text-gray-900 hover:text-blue-800 focus-visible:ring-2 focus-visible:ring-blue-500 transition-transform transform hover:scale-105"
+            aria-label="Ir a la sección pruebas técnicas"
+          >
+            {t("tests")}
+          </a>
         </nav>
 
         {/* Selector de idioma accesible */}

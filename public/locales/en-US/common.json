@@ -2,6 +2,7 @@
     "title_page": "Portfolio",
     "projects_": "Projects",
     "about": "About Me",
+    "tests": "technical tests",
     "download_resume": "Download resume",
     "title_hero_section": "Web Developer!",
     "phrases_hero_section": [
@@ -120,6 +121,63 @@
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Access the Intranet"
+        }
+    },
+    "tech_tests": {
+        "title": "Technical Tests",
+        "description": "Here are some technical tests I have completed, including code, deployment, and a detailed video explanation.",
+        "tests": {
+            "task_manager": {
+                "title": "Task Management - Angular & .NET",
+                "description": "This project is a fullstack application built with Angular 19 and .NET 8, designed for efficient task management. It features NgRx Signals for state management, reactive forms with advanced validations, and a backend in .NET 8 with SQL Server, using Entity Framework Core as ORM. Additionally, the frontend is deployed on Netlify and the backend on Somee, showcasing experience in deploying production-ready applications.",
+                "cover": "/assets/task-manager.jpg",
+                "technologies": [
+                    "Angular 19 (Standalone Components)",
+                    "NgRx Signals (State Management)",
+                    "TypeScript",
+                    "Reactive Forms with Advanced Validations",
+                    "Tailwind CSS",
+                    "Angular Material",
+                    "Unit Testing (Karma & Jasmine)",
+                    "Backend in .NET 8",
+                    "Entity Framework Core (ORM)",
+                    "SQL Server",
+                    "Docker (Local Database)",
+                    "Deployment on Netlify (Frontend)",
+                    "Deployment on Somee (Backend)"
+                ],
+                "video": "https://youtu.be/dWlJ4tvM4jo",
+                "repo": "https://github.com/JohnAchicaizaG/frontend-smart-talent-25006",
+                "repoback": "https://github.com/JohnAchicaizaG/backend-smart-talent-25006",
+                "demo": "https://frontend-prueba-tecnica-smart-talent.netlify.app/",
+                "nameButton": "View Test",
+                "nameButtonGTF": "Frontend code",
+                "nameButtonGTB": "Backend code",
+                "nameButtonYT": "watch on youtube"
+            },
+            "booking_system": {
+                "title": "Task Manager with Skills - Angular & NgRx",
+                "description": "This Angular 16 web application, using NgRx for state management, allows users to create, assign, and manage tasks with associated people and skills. Designed as a technical test, the project showcases advanced reactive forms, data filtering, strict validations, and unit testing with Jasmine and Karma.",
+                "cover": "/assets/velaio-todo.jpg",
+                "technologies": [
+                    "Angular 16",
+                    "NgRx (State Management)",
+                    "TypeScript",
+                    "Reactive Forms",
+                    "Advanced Validations",
+                    "Dynamic Filtering",
+                    "Modular Architecture",
+                    "Unit Testing (Jasmine & Karma)",
+                    "Tailwind CSS",
+                    "Diseño responsivo"
+                ],
+                "video": "https://www.youtube.com/watch?v=DyvC6rx1t1Y",
+                "repo": "https://github.com/JohnAchicaizaG/Velaio-TODO",
+                "demo": "https://unrivaled-banoffee-387b69.netlify.app/",
+                "nameButton": "View Test",
+                "nameButtonGTF": "Frontend code",
+                "nameButtonYT": "watch on youtube"
+            }
         }
     },
     "footer": "John Chicaiza, Transforming ideas into code"

@@ -2,6 +2,7 @@
     "title_page": "Portafolio",
     "projects_": "Proyectos",
     "about": "Sobre mí",
+    "tests": "Pruebas técnicas",
     "download_resume": "Descargar currículum",
     "title_hero_section": "¡Desarrollador web!",
     "phrases_hero_section": [
@@ -119,6 +120,64 @@
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Acceder a la Intranet"
+        }
+    },
+    "tech_tests": {
+        "title": "Pruebas Técnicas",
+        "description": "Aquí están algunas pruebas técnicas que he desarrollado, incluyendo código, despliegue y una explicación detallada en video.",
+        "tests": {
+            "task_manager": {
+                "title": "Gestión de Tareas - Angular & .NET",
+                "description": "Este proyecto es una aplicación fullstack desarrollada con Angular 19 y .NET 8, diseñada para la gestión eficiente de tareas. Implementa NgRx Signals para la gestión de estado, formularios reactivos con validaciones avanzadas y un backend en .NET 8 con SQL Server, utilizando Entity Framework Core como ORM. Además, el frontend está desplegado en Netlify y el backend en Somee, demostrando experiencia en despliegue de aplicaciones en producción.",
+                "cover": "/assets/task-manager.jpg",
+                "technologies": [
+                    "Angular 19 (Componentes Standalone)",
+                    "NgRx Signals (Gestión de Estado)",
+                    "TypeScript",
+                    "Formularios Reactivos con Validaciones Avanzadas",
+                    "Tailwind CSS",
+                    "Angular Material",
+                    "Pruebas Unitarias (Karma & Jasmine)",
+                    "Backend en .NET 8",
+                    "Entity Framework Core (ORM)",
+                    "SQL Server",
+                    "Docker (Base de Datos en Local)",
+                    "Despliegue en Netlify (Frontend)",
+                    "Despliegue en Somee (Backend)"
+                ],
+                "video": "https://youtu.be/dWlJ4tvM4jo",
+                "repo": "https://github.com/JohnAchicaizaG/frontend-smart-talent-25006",
+                "repoback": "https://github.com/JohnAchicaizaG/backend-smart-talent-25006",
+                "demo": "https://frontend-prueba-tecnica-smart-talent.netlify.app/",
+                "nameButton": "Ver Prueba",
+                "nameButtonGTF": "Código Frontend",
+                "nameButtonGTB": "Código Backend",
+                "nameButtonYT": "Ver en YouTube"
+            },
+            "booking_system": {
+                "title": "Gestor de Tareas con Habilidades - Angular & NgRx",
+                "description": "Esta aplicación web, desarrollada en Angular 16 con NgRx para gestión de estado, permite crear, asignar y gestionar tareas con personas y habilidades asociadas. Diseñada como una prueba técnica, la aplicación demuestra el uso de formularios reactivos avanzados, filtrado de datos, validaciones estrictas y pruebas unitarias con Jasmine y Karma.",
+                "cover": "/assets/velaio-todo.jpg",
+                "technologies": [
+                    "Angular 16",
+                    "NgRx (Gestión de Estado)",
+                    "TypeScript",
+                    "Formularios Reactivos",
+                    "Validaciones Avanzadas",
+                    "Filtros Dinámicos",
+                    "Arquitectura Modular",
+                    "Pruebas Unitarias (Jasmine & Karma)",
+                    "Tailwind CSS",
+                    "Angular Material",
+                    "Responsive Desing"
+                ],
+                "video": "https://www.youtube.com/watch?v=DyvC6rx1t1Y",
+                "repo": "https://github.com/JohnAchicaizaG/Velaio-TODO",
+                "demo": "https://unrivaled-banoffee-387b69.netlify.app/",
+                "nameButton": "Ver Prueba",
+                "nameButtonGTF": "Código Frontend",
+                "nameButtonYT": "Ver en YouTube"
+            }
         }
     },
     "footer": "John Chicaiza, Transformando ideas en código"
