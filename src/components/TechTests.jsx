@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaExternalLinkAlt, FaGithub, FaYoutube } from "react-icons/fa";
 
@@ -6,6 +5,21 @@ const TechTests = () => {
   const { t } = useTranslation();
 
   const tests = [
+    {
+      id: "coordinadora_project",
+      title: t("tech_tests.tests.coordinadora_project.title"),
+      description: t("tech_tests.tests.coordinadora_project.description"),
+      cover: t("tech_tests.tests.coordinadora_project.cover"),
+      technologies: t("tech_tests.tests.coordinadora_project.technologies", { returnObjects: true }),
+      video: t("tech_tests.tests.coordinadora_project.video"),
+      repo: t("tech_tests.tests.coordinadora_project.repo"),
+      repoback: t("tech_tests.tests.coordinadora_project.repoback"),
+      demo: t("tech_tests.tests.coordinadora_project.demo"),
+      nameButton: t("tech_tests.tests.coordinadora_project.nameButton"),
+      nameButtonGTF: t("tech_tests.tests.coordinadora_project.nameButtonGTF", ""),
+      nameButtonGTB: t("tech_tests.tests.coordinadora_project.nameButtonGTB", ""),
+      nameButtonYT: t("tech_tests.tests.coordinadora_project.nameButtonYT")
+    },
     {
       id: "task_manager",
       title: t("tech_tests.tests.task_manager.title"),
@@ -34,7 +48,8 @@ const TechTests = () => {
       nameButtonGTF: t("tech_tests.tests.booking_system.nameButtonGTF", ""),
       nameButtonGTB: t("tech_tests.tests.booking_system.nameButtonGTB", ""),
       nameButtonYT: t("tech_tests.tests.booking_system.nameButtonYT")
-    }
+    },
+
   ];
 
   return (

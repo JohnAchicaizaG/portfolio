@@ -19,7 +19,7 @@
         "inventory": {
             "title": "Inventory Management System",
             "description": "A versatile and efficient platform for managing inventory and equipment loans across a wide range of industries, including retail, logistics, manufacturing, healthcare, and education.",
-            "cover": "/assets/inventory-cover.png",
+            "cover": "/assets/inventory-cover.webp",
             "technologies": [
                 "React / Redux",
                 "HTML / CSS / TypeScript",
@@ -33,8 +33,8 @@
                 "Integrating with REST APIs using NestJS."
             ],
             "images": [
-                "/assets/inventory-project/inventory-1.png",
-                "/assets/inventory-project/inventory-1.png"
+                "/assets/inventory-project/inventory-1.webp",
+                "/assets/inventory-project/inventory-1.webp"
             ],
             "projectLink": "https://proyecto1.com",
             "nameButton": "View Project"
@@ -42,7 +42,7 @@
         "sirenagest": {
             "title": "SirenaGest",
             "description": "SIRENAGEST phase 3 is the National Registry System for Pregnant Women of the Ministry of Health of Colombia. It enables personalized tracking of pregnant women, including migrants, to reduce maternal mortality.",
-            "cover": "/assets/sirenagest-cover.png",
+            "cover": "/assets/sirenagest-cover.webp",
             "technologies": [
                 "Vue 3 / Element Plus / Pinia",
                 "HTML / CSS",
@@ -69,13 +69,13 @@
                 "Weekly meetings with stakeholders to validate progress and refine functionalities."
             ],
             "images": [
-                "/assets/sirenagest-project/sirenagest-1.png",
-                "/assets/sirenagest-project/sirenagest-2.png",
-                "/assets/sirenagest-project/sirenagest-3.png",
-                "/assets/sirenagest-project/sirenagest-4.png",
-                "/assets/sirenagest-project/sirenagest-5.png",
-                "/assets/sirenagest-project/sirenagest-6.png",
-                "/assets/sirenagest-project/sirenagest-7.png"
+                "/assets/sirenagest-project/sirenagest-1.webp",
+                "/assets/sirenagest-project/sirenagest-2.webp",
+                "/assets/sirenagest-project/sirenagest-3.webp",
+                "/assets/sirenagest-project/sirenagest-4.webp",
+                "/assets/sirenagest-project/sirenagest-5.webp",
+                "/assets/sirenagest-project/sirenagest-6.webp",
+                "/assets/sirenagest-project/sirenagest-7.webp"
             ],
             "projectLink": "https://web.sispropreprod.gov.co/cohortegestantes/frontend/",
             "nameButton": "Visit Site"
@@ -83,7 +83,7 @@
         "shareholders": {
             "title": "Shareholder Management System",
             "description": "A comprehensive platform for managing shareholders, securities, and real-time voting. Includes user management, assembly administration, customized reports, and an advanced financial module.",
-            "cover": "/assets/eepb-cover.jpeg",
+            "cover": "/assets/eepb-cover.webp",
             "technologies": [
                 "Angular v.16 / Angular Material / NGRX",
                 "Tailwind CSS / CSS",
@@ -107,17 +107,17 @@
                 "Built a scalable backend with Spring Boot and PostgreSQL."
             ],
             "images": [
-                "/assets/eepb-project/eepb-1.jpeg",
-                "/assets/eepb-project/eepb-2.jpeg",
-                "/assets/eepb-project/eepb-3.jpeg",
-                "/assets/eepb-project/eepb-4.jpeg",
-                "/assets/eepb-project/eepb-5.jpeg",
-                "/assets/eepb-project/eepb-6.jpeg",
-                "/assets/eepb-project/eepb-7.jpeg",
-                "/assets/eepb-project/eepb-8.jpeg",
-                "/assets/eepb-project/eepb-9.jpeg",
-                "/assets/eepb-project/eepb-10.jpeg",
-                "/assets/eepb-project/eepb-11.jpeg"
+                "/assets/eepb-project/eepb-1.webp",
+                "/assets/eepb-project/eepb-2.webp",
+                "/assets/eepb-project/eepb-3.webp",
+                "/assets/eepb-project/eepb-4.webp",
+                "/assets/eepb-project/eepb-5.webp",
+                "/assets/eepb-project/eepb-6.webp",
+                "/assets/eepb-project/eepb-7.webp",
+                "/assets/eepb-project/eepb-8.webp",
+                "/assets/eepb-project/eepb-9.webp",
+                "/assets/eepb-project/eepb-10.webp",
+                "/assets/eepb-project/eepb-11.webp"
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Access the Intranet"
@@ -125,7 +125,7 @@
         "fastmeals": {
             "title": "Fast Meals",
             "description": "A fast and modern web platform built with Astro, designed for a local fast food business in Colombia. It includes login authentication with Firebase, order management, and a fully optimized interface using Astro Actions for dynamic functionalities.",
-            "cover": "/assets/fastmeals-cover.png",
+            "cover": "/assets/fastmeals-cover.webp",
             "technologies": [
                 "Astro (Latest Version)",
                 "Tailwind CSS",
@@ -144,12 +144,12 @@
                 "Deployed on Netlify with CI/CD for automated updates."
             ],
             "images": [
-                "/assets/fastmeals-project/photo-2.png",
-                "/assets/fastmeals-project/photo-1.png",
-                "/assets/fastmeals-project/photo-5.png",
-                "/assets/fastmeals-project/photo-6.png",
-                "/assets/fastmeals-project/photo-7.png",
-                "/assets/fastmeals-project/photo-8.png"
+                "/assets/fastmeals-project/photo-2.webp",
+                "/assets/fastmeals-project/photo-1.webp",
+                "/assets/fastmeals-project/photo-5.webp",
+                "/assets/fastmeals-project/photo-6.webp",
+                "/assets/fastmeals-project/photo-7.webp",
+                "/assets/fastmeals-project/photo-8.webp"
             ],
             "projectLink": "https://fastmeals.com",
             "nameButton": "Private Project"
@@ -162,7 +162,7 @@
             "task_manager": {
                 "title": "Task Management - Angular & .NET",
                 "description": "This project is a fullstack application built with Angular 19 and .NET 8, designed for efficient task management. It features NgRx Signals for state management, reactive forms with advanced validations, and a backend in .NET 8 with SQL Server, using Entity Framework Core as ORM. Additionally, the frontend is deployed on Netlify and the backend on Somee, showcasing experience in deploying production-ready applications.",
-                "cover": "/assets/task-manager.jpg",
+                "cover": "/assets/task-manager.webp",
                 "technologies": [
                     "Angular 19 (Standalone Components)",
                     "NgRx Signals (State Management)",
@@ -190,7 +190,7 @@
             "booking_system": {
                 "title": "Task Manager with Skills - Angular & NgRx",
                 "description": "This Angular 16 web application, using NgRx for state management, allows users to create, assign, and manage tasks with associated people and skills. Designed as a technical test, the project showcases advanced reactive forms, data filtering, strict validations, and unit testing with Jasmine and Karma.",
-                "cover": "/assets/velaio-todo.jpg",
+                "cover": "/assets/velaio-todo.webp",
                 "technologies": [
                     "Angular 16",
                     "NgRx (State Management)",
@@ -209,6 +209,44 @@
                 "nameButton": "View Test",
                 "nameButtonGTF": "Frontend code",
                 "nameButtonYT": "watch on youtube"
+            },
+            "coordinadora_project": {
+                "title": "Coordinadora - Fullstack React & Node.js",
+                "description": "This project is a fullstack application developed as a technical challenge for Coordinadora Mercantil. The frontend was built using React 19, Redux Toolkit for state management, React Router for routing, and React Hook Form with advanced validation via Zod. Clean Architecture and TypeScript were applied throughout both frontend and backend. The backend uses Node.js with Express, fully documented with Swagger and JSDoc, and follows SOLID principles. Real-time features are enabled with Socket.IO and Redis. The database is MySQL, optimized for complex queries, and includes JWT-based authentication. Docker was used for local development. ESLint, Prettier, and unit testing with Jest were implemented in both frontend and backend. The application is deployed to Netlify (frontend) and Railway (backend).",
+                "cover": "/assets/coordinadora-project.webp",
+                "technologies": [
+                    "React 19",
+                    "Redux Toolkit (State Management)",
+                    "React Router DOM",
+                    "React Hook Form + Zod",
+                    "Socket.IO (Real-time Events)",
+                    "Redis (State Optimization)",
+                    "TypeScript (Frontend & Backend)",
+                    "Clean Architecture",
+                    "Swagger (API Documentation)",
+                    "JSDoc (Code Documentation)",
+                    "MySQL (Database)",
+                    "Docker (Dev Environment)",
+                    "JWT (Authentication)",
+                    "Axios (HTTP Client)",
+                    "Material UI",
+                    "Tailwind CSS",
+                    "Recharts (Data Visualization)",
+                    "Express (Backend)",
+                    "ESLint & Prettier",
+                    "Unit Testing with Jest (Frontend & Backend)",
+                    "Morgan (Logging Middleware)",
+                    "Deployed on Netlify (Frontend)",
+                    "Deployed on Railway (Backend)"
+                ],
+                "video": "https://youtu.be/P9flET8PxLU",
+                "repo": "https://github.com/JohnAchicaizaG/coordinadora-envios-frontend",
+                "repoback": "https://github.com/JohnAchicaizaG/coordinadora-envios-backend",
+                "demo": "https://coordinadora-prueba-tecnica.netlify.app/",
+                "nameButton": "View Demo",
+                "nameButtonGTF": "Frontend Code",
+                "nameButtonGTB": "Backend Code",
+                "nameButtonYT": "Watch on YouTube"
             }
         }
     },

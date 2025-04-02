@@ -83,6 +83,7 @@ const Projects = () => {
       nameButton: t("projects.fastmeals.nameButton"),
       stack: "Astro"
     }
+    
   ];
 
   const sliderSettings = {
@@ -95,13 +96,13 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-24 bg-[#16263D] text-white">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+    <section id="projects" className="py-16 bg-[#16263D] text-white">
+      <div className="container mx-auto  lg:px-24">
         <h2 className="text-2xl lg:text-5xl font-bold text-center mb-10">
           {t("projects.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -138,7 +139,7 @@ const Projects = () => {
               <Slider {...sliderSettings}>
                 {selectedProject.images.map((img, index) => (
                   <div key={index}>
-                    <img src={img} alt={`${selectedProject.title} - ${index}`} className="rounded-md w-full h-auto" />
+                    <img src={img} alt={`${selectedProject.title} - ${index}`} className="rounded-md w-full h-64 md:h-full" />
                   </div>
                 ))}
               </Slider>
@@ -149,9 +150,9 @@ const Projects = () => {
               <h3 className="text-2xl font-bold text-white">{selectedProject.title}</h3>
 
               {/* 📌 Lista de Contribuciones con Scroll */}
-              <div className="mt-2 h-45 overflow-y-auto pr-2">
+              <div className="mt-2 h-auto md:h-45 overflow-y-auto pr-2">
                 <h4 className="text-lg font-semibold text-white">📌 {t("projects.modal_contributions")}</h4>
-                <ul className="text-gray-300 text-sm list-disc ml-4 mt-2 space-y-2">
+                <ul className="text-gray-300 text-sm list-disc ml-4 mt-2 space-y-2 h-16 md:h-45 overflow-y-auto">
                   {selectedProject.contributions.map((contribution, index) => (
                     <li key={index} className="flex items-start gap-2">
                       <span className="text-blue-400">✔</span> {contribution}

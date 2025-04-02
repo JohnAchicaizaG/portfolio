@@ -19,7 +19,7 @@
         "inventory": {
             "title": "Sistema de Gestión de Inventarios",
             "description": "Una plataforma versátil y eficiente para gestionar inventarios y préstamos de equipos o herramientas en una amplia gama de industrias, incluyendo retail, logística, manufactura, salud y educación.",
-            "cover": "/assets/inventory-cover.png",
+            "cover": "/assets/inventory-cover.webp",
             "technologies": [
                 "React / Redux",
                 "HTML / CSS / TypeScript",
@@ -33,8 +33,8 @@
                 "Integración con API REST usando NestJS."
             ],
             "images": [
-                "/assets/inventory-project/inventory-1.png",
-                "/assets/inventory-project/inventory-1.png"
+                "/assets/inventory-project/inventory-1.webp",
+                "/assets/inventory-project/inventory-1.webp"
             ],
             "projectLink": "https://proyecto1.com",
             "nameButton": "Ver Proyecto"
@@ -42,7 +42,7 @@
         "sirenagest": {
             "title": "SirenaGest",
             "description": "SIRENAGEST fase 3 es el Sistema de Registro Nacional de Gestantes del Ministerio de Salud de Colombia. Permite un seguimiento personalizado de gestantes, incluidas migrantes, para reducir la mortalidad materna.",
-            "cover": "/assets/sirenagest-cover.png",
+            "cover": "/assets/sirenagest-cover.webp",
             "technologies": [
                 "Vue 3 / Element Plus / Pinia",
                 "HTML / CSS",
@@ -68,13 +68,13 @@
                 "Reuniones semanales con stakeholders para validar avances y ajustar funcionalidades."
             ],
             "images": [
-                "/assets/sirenagest-project/sirenagest-1.png",
-                "/assets/sirenagest-project/sirenagest-2.png",
-                "/assets/sirenagest-project/sirenagest-3.png",
-                "/assets/sirenagest-project/sirenagest-4.png",
-                "/assets/sirenagest-project/sirenagest-5.png",
-                "/assets/sirenagest-project/sirenagest-6.png",
-                "/assets/sirenagest-project/sirenagest-7.png"
+                "/assets/sirenagest-project/sirenagest-1.webp",
+                "/assets/sirenagest-project/sirenagest-2.webp",
+                "/assets/sirenagest-project/sirenagest-3.webp",
+                "/assets/sirenagest-project/sirenagest-4.webp",
+                "/assets/sirenagest-project/sirenagest-5.webp",
+                "/assets/sirenagest-project/sirenagest-6.webp",
+                "/assets/sirenagest-project/sirenagest-7.webp"
             ],
             "projectLink": "https://web.sispropreprod.gov.co/cohortegestantes/frontend/",
             "nameButton": "Visitar Sitio"
@@ -106,17 +106,17 @@
                 "Implementación de un backend escalable con Spring Boot y PostgreSQL."
             ],
             "images": [
-                "assets/eepb-project/eepb-1.jpeg",
-                "assets/eepb-project/eepb-2.jpeg",
-                "assets/eepb-project/eepb-3.jpeg",
-                "assets/eepb-project/eepb-4.jpeg",
-                "assets/eepb-project/eepb-5.jpeg",
-                "assets/eepb-project/eepb-6.jpeg",
-                "assets/eepb-project/eepb-7.jpeg",
-                "assets/eepb-project/eepb-8.jpeg",
-                "assets/eepb-project/eepb-9.jpeg",
-                "assets/eepb-project/eepb-10.jpeg",
-                "assets/eepb-project/eepb-11.jpeg"
+                "assets/eepb-project/eepb-1.webp",
+                "assets/eepb-project/eepb-2.webp",
+                "assets/eepb-project/eepb-3.webp",
+                "assets/eepb-project/eepb-4.webp",
+                "assets/eepb-project/eepb-5.webp",
+                "assets/eepb-project/eepb-6.webp",
+                "assets/eepb-project/eepb-7.webp",
+                "assets/eepb-project/eepb-8.webp",
+                "assets/eepb-project/eepb-9.webp",
+                "assets/eepb-project/eepb-10.webp",
+                "assets/eepb-project/eepb-11.webp"
             ],
             "projectLink": "https://eebpsa.com.co/",
             "nameButton": "Acceder a la Intranet"
@@ -124,7 +124,7 @@
         "fastmeals": {
             "title": "Comidas Rápidas",
             "description": "Una plataforma web rápida y moderna creada con Astro, diseñada para un negocio local de comidas rápidas en Colombia. Incluye autenticación con Firebase, gestión de pedidos y una interfaz totalmente optimizada con Astro Actions para funcionalidades dinámicas.",
-            "cover": "/assets/fastmeals-cover.png",
+            "cover": "/assets/fastmeals-cover.webp",
             "technologies": [
                 "Astro (Última versión)",
                 "Tailwind CSS",
@@ -143,12 +143,12 @@
                 "Desplegué en Netlify con CI/CD para actualizaciones automatizadas."
             ],
             "images": [
-                "/assets/fastmeals-project/photo-2.png",
-                "/assets/fastmeals-project/photo-1.png",
-                "/assets/fastmeals-project/photo-5.png",
-                "/assets/fastmeals-project/photo-6.png",
-                "/assets/fastmeals-project/photo-7.png",
-                "/assets/fastmeals-project/photo-8.png"
+                "/assets/fastmeals-project/photo-2.webp",
+                "/assets/fastmeals-project/photo-1.webp",
+                "/assets/fastmeals-project/photo-5.webp",
+                "/assets/fastmeals-project/photo-6.webp",
+                "/assets/fastmeals-project/photo-7.webp",
+                "/assets/fastmeals-project/photo-8.webp"
             ],
             "projectLink": "https://fastmeals.com",
             "nameButton": "Proyecto privado"
@@ -161,7 +161,7 @@
             "task_manager": {
                 "title": "Gestión de Tareas - Angular & .NET",
                 "description": "Este proyecto es una aplicación fullstack desarrollada con Angular 19 y .NET 8, diseñada para la gestión eficiente de tareas. Implementa NgRx Signals para la gestión de estado, formularios reactivos con validaciones avanzadas y un backend en .NET 8 con SQL Server, utilizando Entity Framework Core como ORM. Además, el frontend está desplegado en Netlify y el backend en Somee, demostrando experiencia en despliegue de aplicaciones en producción.",
-                "cover": "/assets/task-manager.jpg",
+                "cover": "/assets/task-manager.webp",
                 "technologies": [
                     "Angular 19 (Componentes Standalone)",
                     "NgRx Signals (Gestión de Estado)",
@@ -189,7 +189,7 @@
             "booking_system": {
                 "title": "Gestor de Tareas con Habilidades - Angular & NgRx",
                 "description": "Esta aplicación web, desarrollada en Angular 16 con NgRx para gestión de estado, permite crear, asignar y gestionar tareas con personas y habilidades asociadas. Diseñada como una prueba técnica, la aplicación demuestra el uso de formularios reactivos avanzados, filtrado de datos, validaciones estrictas y pruebas unitarias con Jasmine y Karma.",
-                "cover": "/assets/velaio-todo.jpg",
+                "cover": "/assets/velaio-todo.webp",
                 "technologies": [
                     "Angular 16",
                     "NgRx (Gestión de Estado)",
@@ -208,6 +208,44 @@
                 "demo": "https://unrivaled-banoffee-387b69.netlify.app/",
                 "nameButton": "Ver Prueba",
                 "nameButtonGTF": "Código Frontend",
+                "nameButtonYT": "Ver en YouTube"
+            },
+            "coordinadora_project": {
+                "title": "Coordinadora - Fullstack React & Node.js",
+                "description": "Este proyecto es una aplicación fullstack desarrollada como prueba técnica para Coordinadora Mercantil. El frontend está construido con React 19, utilizando Redux Toolkit para la gestión de estado, React Router para navegación y React Hook Form con validaciones avanzadas mediante Zod. Se aplicó Clean Architecture y TypeScript en ambos lados del stack. El backend fue desarrollado con Express y Node.js, documentado con Swagger y estructurado con principios SOLID. Además, se integraron funcionalidades en tiempo real usando Socket.IO y Redis. La base de datos es MySQL, optimizada para consultas avanzadas y con autenticación basada en JWT. El sistema incluye Docker para desarrollo local, ESLint, Prettier y pruebas unitarias con Jest en frontend y backend. El despliegue fue realizado en Netlify (frontend) y Railway (backend).",
+                "cover": "/assets/coordinadora-project.webp",
+                "technologies": [
+                    "React 19",
+                    "Redux Toolkit (Gestión de Estado)",
+                    "React Router DOM",
+                    "React Hook Form + Zod",
+                    "Socket.IO (Eventos en Tiempo Real)",
+                    "Redis (Optimización de Estado)",
+                    "TypeScript (Frontend y Backend)",
+                    "Clean Architecture",
+                    "Swagger (Documentación API)",
+                    "JSDoc (Documentación del Código)",
+                    "MySQL (Base de Datos)",
+                    "Docker (Entorno de Desarrollo)",
+                    "JWT (Autenticación)",
+                    "Axios (Cliente HTTP)",
+                    "Material UI",
+                    "Tailwind CSS",
+                    "Recharts (Gráficas de Datos)",
+                    "Express (Backend)",
+                    "ESLint y Prettier",
+                    "Pruebas Unitarias con Jest (Frontend y Backend)",
+                    "Morgan (Middleware de Logs)",
+                    "Despliegue en Netlify (Frontend)",
+                    "Despliegue en Railway (Backend)"
+                ],
+                "video": "https://youtu.be/P9flET8PxLU",
+                "repo": "https://github.com/JohnAchicaizaG/coordinadora-envios-frontend",
+                "repoback": "https://github.com/JohnAchicaizaG/coordinadora-envios-backend",
+                "demo": "https://coordinadora-prueba-tecnica.netlify.app/",
+                "nameButton": "Ver Prueba",
+                "nameButtonGTF": "Código Frontend",
+                "nameButtonGTB": "Código Backend",
                 "nameButtonYT": "Ver en YouTube"
             }
         }
