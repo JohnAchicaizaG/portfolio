@@ -120,6 +120,14 @@ const Navbar = () => {
           >
             {t("about")}
           </a>
+          <a
+            href="#tests"
+            className="block py-2 px-4 text-gray-900 hover:bg-gray-100 focus-visible:ring-2 focus-visible:ring-blue-500"
+            aria-label="Ir a la sección pruebas técnicas"
+            onClick={() => setIsMobileMenuOpen(false)} // Cierra el menú al hacer clic
+          >
+            {t("tests")}
+          </a>
         </nav>
       )}
     </header>

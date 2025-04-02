@@ -33,7 +33,6 @@ const PortfolioCard = ({ images, title, technologies, contributions, projectLink
                   src={img} 
                   alt={`${title} - Imagen ${index + 1}`} 
                   className="rounded-lg w-full h-auto object-contain shadow-lg"
-                  loading="lazy"
                 />
               </div>
             ))}

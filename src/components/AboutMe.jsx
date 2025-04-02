@@ -41,7 +41,6 @@ const AboutMe = () => {
               src="/assets/profile-avatar.jpeg" 
               alt={t("profile_picture_alt")} 
               className="w-full h-full object-cover"
-              loading="lazy" 
               role="img" 
             />
           </motion.div>

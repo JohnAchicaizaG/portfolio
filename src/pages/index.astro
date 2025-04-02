@@ -1,38 +1,80 @@
 ---
-import AboutMe from '../components/AboutMe';
-import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar';
-import Projects from '../components/Projects';
-import TechCarousel from '../components/TechCarousel';
-import TechTests from '../components/TechTests';
+import AboutMe from "../components/AboutMe";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import TechCarousel from "../components/TechCarousel";
+import TechTests from "../components/TechTests";
 ---
 
-<script>
-  document.documentElement.classList.add('loading'); 
-
-  document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    document.documentElement.classList.remove('loading'); 
-    const loaderScreen = document.querySelector('.loader-screen');
-    if (loaderScreen) {
-      loaderScreen.classList.add('fade-out');
-    }
-  }, 16);
-});
-</script>
-
 <!-- Pantalla de carga -->
-<div class="loader-screen">
+<div
+    class="loader-screen fixed inset-0 z-50 flex items-center justify-center bg-white transition-opacity duration-700"
+    id="loader"
+>
+    <!-- Spinner SVG en color verde -->
+    <svg
+        class="w-12 h-12 animate-spin text-[#0EB8B8]"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+    >
+        <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"></circle>
+        <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+    </svg>
 </div>
 
-<Layout>
-  <Navbar client:only="react" />
-  <Hero client:only="react" />
-  <TechCarousel client:only="react" />
-  <AboutMe client:only="react"  />
-  <Projects client:only="react"  /> 
-  <TechTests client:only="react" />
-  <Footer client:only="react" />
-</Layout>
+<!-- Script para mostrar el layout después del loading -->
+<script is:inline>
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            document.documentElement.setAttribute("data-loaded", "true");
+        }, 800);
+    });
+</script>
+
+<!-- Contenedor del layout, oculto al inicio -->
+<div
+    class="app-content opacity-0 transition-opacity duration-700"
+    id="app-content"
+>
+    <Layout>
+        <Navbar client:only="react" />
+        <Hero client:only="react" />
+        <TechCarousel client:only="react" />
+        <AboutMe client:only="react" />
+        <Projects client:only="react" />
+        <TechTests client:only="react" />
+        <Footer client:only="react" />
+    </Layout>
+</div>
+
+<style>
+    html[data-loaded="true"] .loader-screen {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    html[data-loaded="true"] .app-content {
+        opacity: 1;
+    }
+
+    html[data-loaded="true"] body {
+        overflow: auto;
+    }
+
+    html:not([data-loaded="true"]) body {
+        overflow: hidden;
+    }
+</style>
